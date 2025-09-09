@@ -1,0 +1,24 @@
+React server component(rsc)
+----------------------------------
+react team introuduced a new architecture called react server component(rsc) and 
+next js quickly adopted it
+
+this architecture provide a fresh way of building react components by categorizing into 
+two distinct type
+1. Server component
+2. Client component
+
+Server component
+---------------------------------
+By default, NextJS consider all components as server components.
+These components can perform server side tasks like reading files or fetching data directly
+from a database
+But we can't use react hooks or handle user interactions.
+
+Client component
+----------------------------------------------
+To create a Client component in NextJS we have to use "use client" directive at the top of your
+component file.
+Client component can't perform server side tasks like reading files, but we can use hooks and 
+handle user interaction.
+Client component same as we create a component in reactjs
