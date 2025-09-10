@@ -34,3 +34,19 @@ Routing Conventions
 All routes must live inside the app folder
 Route files must be named either page.js or page.tsx
 If we follow these conventions, the file automatically becomes available as route
+
+==========================================================================================
+
+Private Folders
+------------------------------------------
+That folder and subfolders are excluded from routing
+Add an underscore(_) at the begining of your folder name or we can use %5F instead of underscore
+Even if you have page.tsx inside folder with default export it will not route.
+
+========================================================================================
+
+Route Groups
+--------------------------------------------------------------
+This help in organizing routes and project files in a logical way while keeping the URL
+intact.
+We will create register and login
