@@ -22,3 +22,15 @@ component file.
 Client component can't perform server side tasks like reading files, but we can use hooks and 
 handle user interaction.
 Client component same as we create a component in reactjs
+
+=================================================================================
+
+Routing
+------------------------------------------
+NextJS has a file system based routing system
+
+Routing Conventions
+----------------------------------------------
+All routes must live inside the app folder
+Route files must be named either page.js or page.tsx
+If we follow these conventions, the file automatically becomes available as route
